@@ -9,5 +9,11 @@ int main()
          cout<<endl;
          v3.emplace_back(65);
          //now -1 -1 -1 -1 -1 65 //back_push karne k baad array status
-         cout<<v3[5];
+         cout<<v3[5]<<endl;
+
+//printing vector with auto for loop
+      cout<<"print with auto for loop"<<endl;
+      for(auto i:v3){
+          cout<<i<<" ";
+      }
 }         
