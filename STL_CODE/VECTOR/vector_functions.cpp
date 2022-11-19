@@ -47,16 +47,17 @@ v2.emplace_back(23); //its push the elemt at last index
       }
           cout<<endl;
           //v3.emplace(56);
-      cout<<v3.at(7);
+      cout<<v3.at(7)<<endl;
 
   cout<<"V4 ELEMENT AS V3 "<<endl;
       /* Copying one vector to another
       */
     // LETS V4 WANT V3 ELEMENTS 
+    cout<<"auto loop "<<endl;
     vector<int>v4(v3);
 
-      for(int i=0;i<v4.size();i++){
-    cout<<v4.at(i)<<" ";
+      for(auto i: v4){
+    cout<<i<<" ";
       }
       cout<<endl;
 
