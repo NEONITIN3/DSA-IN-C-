@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 { 
-   vector<int>v3(5,-1);//each initial value is -1
+   vector<int>v3(5,-1); //each initial value is -1
          for(int i=0;i<v3.size();i++){
-    cout<<v3.at(i)<<" ";
+           cout<<v3.at(i)<<" ";
          }
          cout<<endl;
          v3.emplace_back(65);
