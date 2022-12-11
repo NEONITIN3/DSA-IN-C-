@@ -10,7 +10,7 @@ int main(){
     cout<<i<<" ";
     //sorting vector in descending order
 sort(v.begin(),v.end(),greater<int>());
-cout<<"printing the vector in decending order"<<endl;
+cout<<"printing the vector in decending order by Greater()"<<endl;
  for(auto i : v)
     cout<<i<<" ";
 
