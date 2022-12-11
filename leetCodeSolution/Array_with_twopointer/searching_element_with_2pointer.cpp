@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 { 
-    vector<int>v{1,23,2,17,11,10,4,6,5};
+    vector<int>v{1,23,2,17,11,10,4,6,5,87};
     //search for 4 in this array
     int left=0;
     int right= v.size()-1;
