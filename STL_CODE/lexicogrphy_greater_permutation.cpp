@@ -27,4 +27,5 @@ int main(){
 int arr[] = {1,2,3};
 
 cout<<next_permutation(arr, arr+3);
+//its give true 1, or false 0 if its possible
 }
