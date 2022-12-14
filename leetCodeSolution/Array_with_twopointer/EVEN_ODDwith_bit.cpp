@@ -8,9 +8,11 @@ int main()
     //5-101,7-111,jitne bhi odd hai unka last bit 1 hi hoga hamesa to esi liye
     
 
-    if(n&1==0)
-   cout<<"even hai ";
-    else
-   cout<<"odd";
+//     if(n&1==0)
+//    cout<<"even hai number last bit o hai ";
+//     else
+//    cout<<"odd";
+
+   n&1? cout<<"odd":cout<<"even";
 
 } 
