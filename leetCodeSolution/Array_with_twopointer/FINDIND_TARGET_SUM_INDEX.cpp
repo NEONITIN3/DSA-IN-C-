@@ -4,15 +4,16 @@ using namespace std;
 //bruet force method 0(n^2)
 int main(){
     int a[]={1,2,5,8,90,5,3};
-    // int index[2];
-    int target=3;
+    int size=sizeof(a)/sizeof(a[0]);
+    int target=10;
     //int n=sizeof(a)/sizeof(a[0]);
-    for(int i=0;i<6;i++){
-        for(int j=i;j<7;j++)
+     cout<<"all possible index which give target is "<<endl;
+    for(int i=0;i<size-1;i++){
+        for(int j=i+1;j<size;j++)
         {
             if(a[i]+a[j]==target)
-          cout<<i<<" "<<j;
-          break;
+            //cout<<"all possible index which give target is "
+          cout<<i<<" "<<j<<endl;
       
         }
     }
