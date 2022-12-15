@@ -5,6 +5,7 @@ int main()
     int n;
     cin>>n;
 //in one line condition?output(truewala ):output;
+cout<<endl;
    n&1? cout<<"odd":cout<<"even";
 
 } 

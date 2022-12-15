@@ -40,5 +40,6 @@ int main()
     B=A^B;
     A=A^B; //A^A^B
     B=A^B; //A^A^B^B
+    cout<<endl;
 cout<<"AFTER swappin "<<" A = " <<A<<" B = "<<B<<endl;
 } 
