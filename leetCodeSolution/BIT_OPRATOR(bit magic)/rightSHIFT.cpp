@@ -14,10 +14,10 @@ x>>y=x/2^y floar value ex 4.9=4
 
 */
 int main()
-{
+{ 
     int n=5;
     cout<<(n<<2)<<endl;
-    n&1?cout<<"odd":cout<<"even";
+    //n&1?cout<<"odd":cout<<"even";
 }
 //101101<<2
 // 3=11<<1=110=6
