@@ -14,6 +14,7 @@ int main()
 //    cout<<"odd";
 
 //in one line condition?output(truewala ):output;
+cout<<endl;
    n&1? cout<<"odd":cout<<"even";
 
 } 
