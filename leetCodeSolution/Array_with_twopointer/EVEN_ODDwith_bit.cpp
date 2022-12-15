@@ -13,6 +13,7 @@ int main()
 //     else
 //    cout<<"odd";
 
+//in one line condition?output(truewala ):output;
    n&1? cout<<"odd":cout<<"even";
 
 } 
