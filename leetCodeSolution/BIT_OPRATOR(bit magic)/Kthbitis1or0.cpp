@@ -9,5 +9,9 @@ n=8 k=2
 int main(){
     int n,k;
     cin>>n>>k;
-    (n>>k)&1?cout<<"yes":cout<<"NO";
+    // k-1 k sath right ya left shift kar do 
+    //phir 1 k sath AND le lo pata chal jayega 
+    //1 aa agya to us bit 1 hai otherwise 0 hai
+    (n>>(k-1))&1?cout<<"yes that bit is 1":cout<<"NO that bit is O";
+    //yAHI LEFT OPERATOR SE BHI KAR SAKATE HO
 }
