@@ -8,23 +8,36 @@ void solve(int n){
   return;
   solve(n-1);
   cout<<n<<" ";
-  return;
+  solve(n-1);
+  cout<<n<<" ";
+ 
 }
 //increasing and decresing order
 //5  o/p 5 4 3 2 1 1 2 3 4 5
 
-int inde(int n){
-  cout<<endl;
-  if(n==0)
-  return 0;
-  cout<<n<<" ";
-  inde(n-1);
-  cout<<n<<" ";
-}
+// int inde(int n){
+//   cout<<endl;
+//   if(n==0)
+//   return 0;
+//   cout<<n<<" ";
+//   inde(n-1);
+//   cout<<n<<" ";
+// }
+
+// 123321  ye wala
+// int fun(int n)
+// {
+//   if(n<1)
+//   return 0;
+//   solve(n-1);
+//   cout<<n;
+// }
+
+
 int main()
 {
-  int n=5;
+  int n=3;
   //cin>>n;
   solve( n) ;
-  inde(n);
+ // inde(n);
   }
