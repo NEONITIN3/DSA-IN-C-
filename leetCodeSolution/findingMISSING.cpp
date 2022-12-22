@@ -20,7 +20,7 @@ diye gaye input ko 1to n number k sath xor karo jo missing hoga wahi bachega las
 */
 int main(){
     //here n=9;
-    int a[]={1,2,3,4,5,6,7,9};
+    int a[]={1,2,3,4,5,6,7,9}; //8 is missing
     int arr_xor=0;
     for(int i=0;i<8;i++){
         arr_xor=arr_xor^a[i];
