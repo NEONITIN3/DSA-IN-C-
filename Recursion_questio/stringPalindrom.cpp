@@ -9,7 +9,9 @@ return (s[start]==s[end] )&& checkpalindrom(s,start+1,end-1) ;
 //ek ko badao lasrt wale ko ghatao
 
 //o/p 0 meant not palindrom 1 means palindrom
-
+//0(n)
+//0(n) auxaliry space //n/2 times recursive call hoga
+//best case jab match nahi hoga first and last char emmidiate return ho jayega 
 }
 int main(){
     string s="NITIN";
