@@ -15,3 +15,4 @@ int main(){
 int n=7,k=3; //o/p 3 3 hi aisa index hai jo last tak bacha arhega
 cout<<"servival index after all round "<<index(n,k);
 }
+//agar index 0 ke bazay 1 se start ho to last m ans k +1 kar do bas
