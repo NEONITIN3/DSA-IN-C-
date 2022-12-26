@@ -15,7 +15,8 @@ string removeSpaces(char str[]) {
 
   return str;
 }
-
+//0(n)
+//0(1)
 int main() {
   char str[] = "Take you forward";
   cout << removeSpaces(str);
